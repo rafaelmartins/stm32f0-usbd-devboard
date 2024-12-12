@@ -219,7 +219,7 @@
 		(uuid "085f4818-84f1-415f-823e-e6076d0e732d")
 	)
 	(fp_text user "${Descr}"
-		(at -1.397 -2.667 0)
+		(at 5.08 -2.667 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9d491e39-8193-4bbd-924a-45e01195a160")
@@ -229,7 +229,7 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(fp_text user "${NET_NAME(2)}"

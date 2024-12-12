@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "stm32f0-usbd-devboard")
-		(date "2024-12-10")
-		(rev "20241210")
+		(date "2024-12-12")
+		(rev "20241212")
 		(comment 3 "Released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal")
 		(comment 4 "Designed by: Rafael G. Martins")
 	)
@@ -3539,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 76.2) (xy 222.25 74.93)
+			(xy 219.71 74.93) (xy 219.71 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3679,13 +3679,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 242.57 78.74)
+			(xy 245.11 76.2) (xy 245.11 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "216b2fe0-2836-41a6-b24c-9a2fcfa1f80e")
+		(uuid "213bf257-54f5-42b3-adca-f3369c948a58")
 	)
 	(wire
 		(pts
@@ -3696,16 +3696,6 @@
 			(type default)
 		)
 		(uuid "229d550c-5f05-4dc0-8ba2-214f844a0e33")
-	)
-	(wire
-		(pts
-			(xy 245.11 107.95) (xy 245.11 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2400207c-15cf-4cf4-800e-f6cafb693549")
 	)
 	(wire
 		(pts
@@ -3736,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "24ff3140-3217-4718-9ded-9911401a470b")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 224.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f27954-0d56-4b23-9247-fff9a2153cd7")
 	)
 	(polyline
 		(pts
@@ -3889,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 76.2) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b8a181-317b-48ff-8090-eb14dc4546f5")
+	)
+	(wire
+		(pts
 			(xy 220.98 83.82) (xy 224.79 83.82)
 		)
 		(stroke
@@ -3976,16 +3986,6 @@
 			(type default)
 		)
 		(uuid "539c80ce-a827-4113-ba2d-34090024134a")
-	)
-	(wire
-		(pts
-			(xy 224.79 76.2) (xy 222.25 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55492bbd-f9ca-4e06-8e47-8020d32b2f78")
 	)
 	(wire
 		(pts
@@ -4379,7 +4379,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 76.2) (xy 245.11 74.93)
+			(xy 222.25 76.2) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dd7065-25e4-4537-acb2-d279c7cb8b3e")
+	)
+	(wire
+		(pts
+			(xy 247.65 74.93) (xy 247.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4486,6 +4496,16 @@
 			(type default)
 		)
 		(uuid "a33faf43-90d7-4840-bfad-8eff9323480a")
+	)
+	(wire
+		(pts
+			(xy 242.57 78.74) (xy 247.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68bfb2f-b693-4ccd-ac1b-398d6b43b3c2")
 	)
 	(wire
 		(pts
@@ -4789,16 +4809,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 107.95) (xy 222.25 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82ded3b-6e91-4044-9448-a653b36d8d30")
-	)
-	(wire
-		(pts
 			(xy 50.8 128.905) (xy 52.07 128.905)
 		)
 		(stroke
@@ -4866,6 +4876,16 @@
 			(type default)
 		)
 		(uuid "e2b5b3c9-bc09-4509-982c-f0cfc5716e73")
+	)
+	(wire
+		(pts
+			(xy 245.11 76.2) (xy 242.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f0cb17-5531-44c6-b5e5-7d113b1304aa")
 	)
 	(wire
 		(pts
@@ -4969,16 +4989,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 76.2) (xy 245.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f54832f2-23e1-49a5-b339-2dfa6d22dd1c")
-	)
-	(wire
-		(pts
 			(xy 220.98 93.98) (xy 224.79 93.98)
 		)
 		(stroke
@@ -4986,16 +4996,6 @@
 			(type default)
 		)
 		(uuid "f6b1cfff-78ca-47b9-a685-b5c5742dc425")
-	)
-	(wire
-		(pts
-			(xy 222.25 78.74) (xy 224.79 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7190735-c4ef-48d1-a59b-4f12e3698b29")
 	)
 	(wire
 		(pts
@@ -6716,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:PinHeader_DevBoard_Connector_1x12_P2.54mm_Vertical"
+		(property "Footprint" "custom:PinHeader_DevBoard_Right_Connector_1x12_P2.54mm_Vertical"
 			(at 237.49 88.9 0)
 			(effects
 				(font
@@ -6874,8 +6874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 69.215 36.195 0)
+		(property "Value" "5V"
+			(at 69.215 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "3.3V"
 			(at 56.515 116.84 0)
 			(effects
 				(font
@@ -7134,7 +7134,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 222.25 74.93 0)
+		(at 219.71 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7143,7 +7143,7 @@
 		(fields_autoplaced yes)
 		(uuid "3261c2e8-d146-4dd4-a32b-043f1879cc3d")
 		(property "Reference" "#PWR020"
-			(at 222.25 78.74 0)
+			(at 219.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,8 +7151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 222.25 69.85 0)
+		(property "Value" "3.3V"
+			(at 219.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 74.93 0)
+			(at 219.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 74.93 0)
+			(at 219.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 222.25 74.93 0)
+			(at 219.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,7 +7424,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 245.11 74.93 0)
+		(at 247.65 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7433,7 +7433,7 @@
 		(fields_autoplaced yes)
 		(uuid "47b62071-a78c-4044-9ad8-9fdbbe146667")
 		(property "Reference" "#PWR021"
-			(at 245.11 78.74 0)
+			(at 247.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,8 +7441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 245.11 69.85 0)
+		(property "Value" "5V"
+			(at 247.65 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +7450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 74.93 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 74.93 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 74.93 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "3.3V"
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -7910,7 +7910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:PinHeader_DevBoard_Connector_1x12_P2.54mm_Vertical"
+		(property "Footprint" "custom:PinHeader_DevBoard_Left_Connector_1x12_P2.54mm_Vertical"
 			(at 229.87 88.9 0)
 			(effects
 				(font
@@ -8134,8 +8134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 86.995 81.915 0)
+		(property "Value" "3.3V"
+			(at 86.995 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,8 +8529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 62.865 81.915 0)
+		(property "Value" "5V"
+			(at 62.865 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,8 +8595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 129.54 105.41 90)
+		(property "Value" "3.3V"
+			(at 129.54 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 89.535 36.83 0)
 			(effects
 				(font
