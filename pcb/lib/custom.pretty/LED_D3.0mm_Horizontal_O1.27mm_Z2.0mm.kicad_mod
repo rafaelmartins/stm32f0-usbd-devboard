@@ -1,7 +1,7 @@
 (footprint "LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins")
 	(tags "LED diameter 3.0mm z-position of LED center 2.0mm 2 pins")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e65b4338-c2f9-4b32-aabc-41334cbd8310")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -447,6 +434,7 @@
 		(remove_unused_layers no)
 		(uuid "9c5d3df8-8861-44e9-9314-2cfb65e809c9")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)

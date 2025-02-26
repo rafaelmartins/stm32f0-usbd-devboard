@@ -1,7 +1,7 @@
 (footprint "PinHeader_DevBoard_Left_Connector_1x12_P2.54mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x11 2.54mm single row")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ae4588e-2ca7-4ad8-a982-3c2a40fa6a13")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -383,6 +370,7 @@
 		(remove_unused_layers no)
 		(uuid "e4fe345b-7443-4d6e-98b1-b2cb087ae030")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
